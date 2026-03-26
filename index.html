@@ -127,7 +127,7 @@
 
   <main id="main-content">
   <section class="hero">
-    <div class="hero-body">
+    <div class="hero-body" style="padding-bottom: 1.5rem;">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
@@ -192,20 +192,22 @@
     </div>
   </section>
 
-  <section class="section" style="padding-top: 0; padding-bottom: 1rem;">
+  <!-- 图 1 区域，删除了重复的多余代码 -->
+  <section class="section" style="padding-top: 0; padding-bottom: 1.5rem;">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <img src="static/images/figure1_overview.png" alt="Overview of the GeoHeight-Bench (+)" style="max-width: 90%; margin: 0 auto; border-radius: 8px;">
           <p class="has-text-justified" style="margin-top: 8px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
-            Overview of the GeoHeight-Bench (+),which comprising ten diverse tasks organized into four hierarchical levels: Pixel-level retrieval, Object-level extraction, Scene-level analysis, and Reasoning-level inference.
+            <b>Figure 1.</b> Overview of the GeoHeight-Bench (+), which comprising ten diverse tasks organized into four hierarchical levels: Pixel-level retrieval, Object-level extraction, Scene-level analysis, and Reasoning-level inference.
           </p>
         </div>
       </div>
     </div>
   </section>
     
-  <section class="section hero is-light">
+  <!-- 摘要区域，去掉了默认留白过大的 hero 属性 -->
+  <section class="section is-light" style="padding-top: 2rem; padding-bottom: 2rem;">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
@@ -220,15 +222,14 @@
     </div>
   </section>
   
-
   <!-- Benchmark Generation -->
-  <section class="section" style="padding-top: 2rem; padding-bottom: 2rem;">
+  <section class="section" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
     <div class="container is-max-desktop">
       <h2 class="title is-3 has-text-centered">Benchmark Generation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <img src="static/images/figure2_pipeline.png" alt="Pipeline of the GeoHeight-Bench generation and verification" style="max-width: 90%; margin: 0 auto; border-radius: 8px;">
-          <p class="has-text-justified" style="margin-top: 15px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
+          <p class="has-text-justified" style="margin-top: 8px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
             <b>Figure 2.</b> Pipeline of the GeoHeight-Bench generation and verification.
           </p>
         </div>
@@ -237,13 +238,13 @@
   </section>
 
   <!-- GeoHeightChat -->
-  <section class="section is-light" style="padding-top: 2rem; padding-bottom: 2rem;">
+  <section class="section is-light" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
     <div class="container is-max-desktop">
       <h2 class="title is-3 has-text-centered">GeoHeightChat</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <img src="static/images/figure3_framework.png" alt="The proposed GeoHeightChat framework" style="max-width: 90%; margin: 0 auto; border-radius: 8px;">
-          <p class="has-text-justified" style="margin-top: 15px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
+          <p class="has-text-justified" style="margin-top: 8px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
             <b>Figure 3.</b> The proposed GeoHeightChat framework comprises two training stages: Cross-Modal Geo-Alignment and Geo-Aware Instruction Tuning.
           </p>
         </div>
@@ -252,13 +253,13 @@
   </section>
 
   <!-- Comparison -->
-  <section class="section" style="padding-top: 2rem; padding-bottom: 2rem;">
+  <section class="section" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
     <div class="container is-max-desktop">
       <h2 class="title is-3 has-text-centered">Comparison</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <img src="static/images/figure4_comparison.png" alt="Comparison between GeoHeightChat and LMMs" style="max-width: 90%; margin: 0 auto; border-radius: 8px;">
-          <p class="has-text-justified" style="margin-top: 15px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
+          <p class="has-text-justified" style="margin-top: 8px; width: 90%; margin-left: auto; margin-right: auto; font-size: 0.95rem; color: #555;">
             <b>Figure 4.</b> Comparison between GeoHeightChat and LMMs on multimodal reasoning.
           </p>
         </div>
@@ -266,7 +267,7 @@
     </div>
   </section>
   
-  <section class="section is-light" id="BibTeX">
+  <section class="section is-light" id="BibTeX" style="padding-top: 2rem; padding-bottom: 2rem;">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
         <h2 class="title">BibTeX</h2>
@@ -283,7 +284,7 @@
 }</code></pre>
     </div>
   </section>
-  <footer class="footer">
+  <footer class="footer" style="padding: 2rem 1.5rem;">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-8">
